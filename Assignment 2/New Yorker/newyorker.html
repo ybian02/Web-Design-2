@@ -1,13 +1,10 @@
 <html>
     <head>
-
-    
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bob Dylan as Richard Wagner</title>
         <meta name=" " content="Bob Dylan as Richard Wagner">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
         
     <body>
@@ -43,34 +40,32 @@
             <hr>
         </nav>
         
-        <main> 
-            <article class="title">
-                <hr>
+        <div class="title">
+            <hr>
                 <p class="red section_title">Cultural Comment</p>
                 <h1>Bob Dylan as Richard Wagner</h1>
-                <img src="images/ross-alex-1.png"> 
+                <img id="author_profile" src="images/ross-alex-1.png"/> 
                 <p class="author">By Alex Ross</p>
                 <p class="date">October 14, 2016</p>
-                <hr>
-            </article>
-        
-            <article> 
-                <aside> 
+            <hr>
+        </div>
+          
+        <div id="article_container"> 
+                <div id="social_media"> 
                     <ul> 
-                        <li> <a href="/facebook/"> <img src=""> </a> </li>
-                        <li> <a href="/twitter/"> <img src=""> </a> </li>
-                        <li> <a href="/email/"> <img src=""> </a> </li>
-                        <li> <a href="/facebook/"> <img src=""> </a> </li>
-                        <li> <a href="/print/"> <img src=""> </a> </li>
+                        <li> <a href="/facebook/"> <span class="dot"></span> </a> </li>
+                        <li> <a href="/twitter/"> <span class="dot"></span> </a> </li>
+                        <li> <a href="/email/"> <span class="dot"></span> </a> </li>
+                        <li> <a href="/facebook/"> <span class="dot"></span> </a> </li>
+                        <li> <a href="/print/"> <span class="dot"></span> </a> </li>
                     </ul>
-                </aside>
+                </div>
                     
                 <!--Main Article-->
-                <div> 
                     <!--photo and article -->
-                    <div> 
+                    <div id="main_article"> 
                         <figure>
-                                <img src="images/Ross-Dylan.jpg">
+                                <img id="main_photo" src="images/Ross-Dylan.jpg">
                                 <figurecaption> If you came of age in the nineteen-sixties, you had to know Bob Dylan; in the eighteen-eighties, it had to be Richard Wagner.</figurecaption>
                                 <p class="image_source">PHOTOGRAPH BY DOUG MCKENZIE / GETTY</p>
                         </figure>
@@ -127,7 +122,7 @@
                     <!--end of photo and article -->
                     <!--author info-->
                     <div> 
-                        <figure src="profile"></figure>
+                        <figure src="profile"> <img id="author_profile2" src="images/ross-alex-1.png"/> </figure>
                         <p id="author_info">Alex Ross, the magazine’s music critic since 1996, is the author of “The Rest Is Noise” and “Listen to This.”</p>
                         <a href="https://www.newyorker.com/contributors/alex-ross">Read more>></a>
                     </div>
@@ -165,7 +160,7 @@
                 <!--end of Main Article-->
 
                 <!--Most Popular-->
-                <aside> 
+                <div> 
                     <div> 
                         <hr>
                         <p id="most_popular">MOST POPULAR</p>
@@ -218,23 +213,21 @@
                             <img scr="//"/> 
                         </figure>
                     </a>
-                </aside>
+                </div>
                 <!--end of Most Popular-->
                 
-            </article>
-        </main>
         
         <!--Recommended Stories-->
         <div>
             <div> 
-            <hr> 
-                <p id="rec_title">Recommended Stories</p>
-            <hr>
+                <hr> 
+                    <h1 id="rec_title">Recommended Stories</h1>
+                <hr>
             </div>
             
-            <div> 
-                <div>
-                    <img src="images/Remnick-Dylan.jpg"> 
+            <div id="rec_section"> 
+                <div class="rec_article">
+                    <img class="rec_photo" src="images/Remnick-Dylan.jpg"> 
                     <p class="red section_title"><a href="">Cultural Comment</a></p>
                     <p class="rec_title"><a href="">Let’s Celebrate the Bob Dylan Nobel Win</a></p>
                     <p class="rec_tagline">For all the foibles of the prize and its selection committee, can we just bask a little while in this one?</p>
@@ -242,8 +235,8 @@
                     <p class="date">Oct. 13, 2016</p>
                 </div>
                 
-                <div>
-                    <img src="images/Friedman-Dylan-Nobel.jpg"> 
+                <div class="rec_article">
+                    <img class="rec_photo" src="images/Friedman-Dylan-Nobel.jpg"> 
                     <p class="red section_title"><a href="">Page-Turner</a></p>
                     <p class="rec_title"><a href="">Our Favorite Dylan Lyrics</a></p>
                     <p class="rec_tagline">New Yorker writers and editors on words from the newly minted Nobel laureate that have stuck with them.</p>
@@ -251,8 +244,8 @@
                     <p class="date">Oct. 13, 2016</p>
                 </div>
                 
-                <div>
-                    <img src="images/r31463.jpg"> 
+                <div class="rec_article">
+                    <img class="rec_photo" src="images/r31463.jpg"> 
                     <p class="red section_title"><a href="">A Reporter at Large</a></p>
                     <p class="rec_title"><a href="">The White Darkness: A Journey Across Antarctica</a></p>
                     <p class="rec_tagline">A solitary journey across Antarctica.</p>
@@ -260,8 +253,8 @@
                     <p class="date">Oct. 13, 2016</p>
                 </div>
                 
-                <div>
-                    <img src="images/Borowitz-Military-Refuses-to-Participate-in-Trumps-Parade.jpg"> 
+                <div class="rec_article">
+                    <img class="rec_photo" src="images/Borowitz-Military-Refuses-to-Participate-in-Trumps-Parade.jpg"> 
                     <p class="red section_title"><a href="">Satire from The Borowitz Report</a></p>
                     <p class="rec_title"><a href="">Military Refuses to Participate in Trump’s Parade, Citing Bone Spurs</a></p>
                     <p class="rec_tagline">“Regrettably, we have no choice but to issue thousands of deferments,” a Pentagon spokesman said.</p>

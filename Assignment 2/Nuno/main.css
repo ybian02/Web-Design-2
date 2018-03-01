@@ -6,7 +6,36 @@ ul {
   list-style-type: none;
 }
 
+h6{
+      
+}
 
-.project_info {
-    
+.project-intro {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 42px;
+    float: left;
+    clear: both;
+    padding-left: 3.46663%;
+    position: relative;
+    overflow: hidden;
+}
+
+section.project-intro h6 {
+    float: left;
+    clear: left;
+/*    width: 100%;*/
+    margin: 0;       
+} 
+
+section.project-intro p {
+    float: left;
+    clear: left;
+/*    width: 100%;*/
+    padding-top: 0;
+}
+
+img #phone {
+    height:450px;
+    width: auto;
 }
