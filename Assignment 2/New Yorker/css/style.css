@@ -5,6 +5,7 @@ ul {
     overflow: hidden;
 }
 
+
 nav li a {
     display: block;
     color: black;
@@ -34,26 +35,30 @@ article.tile {
 
 #article_container {
     width: 800px;
-    margin-left:5%;
+    margin:auto;
 }
 
-#social_media{;
+#social_media{
     position:-webkit-sticky;
     position:sticky;
     top:10%; 
 /*    width:200px;*/
     margin: auto;
+    float: left;
 }
 
 #main_article {
     width:600px;
     position:relative;
-    margin:0 20px 0 0;
-    
+/*    margin:0 20px 0 0; */
 }
 
 #main_photo {
     height: 600px;
+}
+
+#text_article {
+    
 }
 
 #author_profile2 {
