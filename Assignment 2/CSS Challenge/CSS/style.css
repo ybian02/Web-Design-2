@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.orange {
+    background-color: orange;
+}
+
+article {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.col_10{
+    width:500px;
+}
+
+.col_2{
+    width:100px;
+}
+
+.col_12{
+    width:100%;
+}
+
+.col_4{
+    width:200px;
+    float: left;
+    display: inline-block;
+}
+
+.col_xs {
+    width:120px;
+}
+
+#container {
+    width:600px;
+    margin: auto;
+}
+
+.tall {
+    height:300px;
+}
+
+.medium {
+    height:150px;
+}
+
+.medium_short {
+    height:100px;
+}
+
+.short {
+    height:50px;
+}
