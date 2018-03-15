@@ -1,3 +1,5 @@
+html, body { overflow-x: hidden; }
+
 a {
     text-decoration: underline;
 }
@@ -6,10 +8,8 @@ ul {
   list-style-type: none;
 }
 
-h6{
-      
-}
 
+/*
 .project-intro {
     width: 100%;
     margin-top: 22px;
@@ -20,22 +20,38 @@ h6{
     position: relative;
     overflow: hidden;
 }
+*/
 
+
+/*
 section.project-intro h6 {
     float: left;
     clear: left;
-/*    width: 100%;*/
     margin: 0;       
 } 
 
 section.project-intro p {
     float: left;
     clear: left;
-/*    width: 100%;*/
+    width: 100%;
     padding-top: 0;
 }
 
-img #phone {
-    height:450px;
-    width: auto;
+.padding10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.padding50 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.paddingleft50 {
+    padding-left: 50%;
+}
+*/
+
+.space-top {
+    margin-top: 5%;
 }
